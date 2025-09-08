@@ -15,6 +15,7 @@ public class Multiples {
             return n / a + n / b - n / (a * b);
         }
     }
+
     public static int multiples() {
         return multiples(1000, 3, 5);
     }
