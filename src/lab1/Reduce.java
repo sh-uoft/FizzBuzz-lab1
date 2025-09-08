@@ -5,7 +5,7 @@ public class Reduce {
         System.out.println(reduce(100));
     }
 
-    private static int reduce(int n) {
+    public static int reduce(int n) {
         int steps = 0;
         for (; n != 0; steps++) {
             if (n % 2 == 0) {
